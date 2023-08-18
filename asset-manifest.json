@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SanandKrishna/Contact-list-React/static/css/main.79c5b057.css",
+    "main.js": "/SanandKrishna/Contact-list-React/static/js/main.a18e58fd.js",
+    "static/js/787.ce7ac628.chunk.js": "/SanandKrishna/Contact-list-React/static/js/787.ce7ac628.chunk.js",
+    "index.html": "/SanandKrishna/Contact-list-React/index.html",
+    "main.79c5b057.css.map": "/SanandKrishna/Contact-list-React/static/css/main.79c5b057.css.map",
+    "main.a18e58fd.js.map": "/SanandKrishna/Contact-list-React/static/js/main.a18e58fd.js.map",
+    "787.ce7ac628.chunk.js.map": "/SanandKrishna/Contact-list-React/static/js/787.ce7ac628.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79c5b057.css",
+    "static/js/main.a18e58fd.js"
+  ]
+}
