@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import ContactForm from './components/ContactForm';
+import ContactList from './components/ContactList';
 
 function App() {
+  const [contacts, setContacts] = useState([]);
+
+  useEffect(() => {
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then(response => response.json())
+      .then(data => setContacts(data))
+      .catch(error => console.error('Error fetching contacts: ' , error));
+
+  }, []);
+
+  const addContact = (contact) => {
+    setContacts([...contacts, contact]);
+  };
+  const updateContact = (id, updatedContact) => {
+    const updatedContacts = contacts.map(contact =>
+      contact.id === id ? updatedContact : contact
+    );
+    setContacts(updatedContacts);
+  };
+
+  const deleteContact = (id) => {
+    const updatedContacts = contacts.filter(contact => contact.id !== id);
+    setContacts(updatedContacts);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Contact List App</h1>
+      <ContactForm addContact={addContact} />
+      <ContactList contacts={contacts}
+      updateContact={updateContact}
+      deleteContact={deleteContact} />
     </div>
   );
 }
