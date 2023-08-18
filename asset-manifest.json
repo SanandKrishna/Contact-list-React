@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SanandKrishna/Contact-list-React/static/css/main.79c5b057.css",
-    "main.js": "/SanandKrishna/Contact-list-React/static/js/main.a18e58fd.js",
-    "static/js/787.ce7ac628.chunk.js": "/SanandKrishna/Contact-list-React/static/js/787.ce7ac628.chunk.js",
-    "index.html": "/SanandKrishna/Contact-list-React/index.html",
-    "main.79c5b057.css.map": "/SanandKrishna/Contact-list-React/static/css/main.79c5b057.css.map",
-    "main.a18e58fd.js.map": "/SanandKrishna/Contact-list-React/static/js/main.a18e58fd.js.map",
-    "787.ce7ac628.chunk.js.map": "/SanandKrishna/Contact-list-React/static/js/787.ce7ac628.chunk.js.map"
+    "main.css": "/Contact-list-React/static/css/main.79c5b057.css",
+    "main.js": "/Contact-list-React/static/js/main.b6c975f1.js",
+    "static/js/787.ce7ac628.chunk.js": "/Contact-list-React/static/js/787.ce7ac628.chunk.js",
+    "index.html": "/Contact-list-React/index.html",
+    "main.79c5b057.css.map": "/Contact-list-React/static/css/main.79c5b057.css.map",
+    "main.b6c975f1.js.map": "/Contact-list-React/static/js/main.b6c975f1.js.map",
+    "787.ce7ac628.chunk.js.map": "/Contact-list-React/static/js/787.ce7ac628.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79c5b057.css",
-    "static/js/main.a18e58fd.js"
+    "static/js/main.b6c975f1.js"
   ]
 }
